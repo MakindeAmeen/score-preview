@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ameen Test</title>
+  <style>
+    body {
+      font-family: Hanken Grotesk;
+      font-style: normal;
+    }
+    .left-side {
+      color: white;
+      width: 300px;
+      height: 370px;
+      border-radius: 20px;
+      background-image: linear-gradient(rgb(103, 66, 255), rgb(49, 44, 232));
+      text-align: center;
+      padding-top: 10px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 350px;
+    }
+    .round-button {
+      height: 180px;
+      width: 180px;
+      color: white;
+      border-radius: 90px;
+      background-image: linear-gradient(rgb(76, 32, 204), rgb(70, 51, 237));
+      border: none;
+      margin-bottom: 1px;
+    }
+    .result-text {
+      color:rgb(186, 178, 241);
+      text-align: center;
+      font-weight: bold;
+      margin-top: 5px;
+      margin-bottom: 25px;
+    }
+    .score-button {
+      color: white;
+      font-size: 100px;
+      font-family: Hanken Grotesk;
+      margin: 0px;
+      height: 100px;
+    }
+    .of-total {
+      color: rgb(186, 178, 241);
+      margin-top: 0px;
+      margin-bottom: 30px;
+    }
+    .complement-text {
+      font-weight: 600px;
+      font-size: 25px;
+      margin-top: 5px;
+      margin-bottom: 0px;
+    }
+    .comment {
+      height: 50px;
+      width: 220px;
+      color: rgb(186, 178, 241);
+      margin-left: 40px;
+      font-weight: 650px; 
+    }
+
+    .right-side {
+      background-color: white;
+      height: 400px;
+      width: 300px;
+      text-align: center;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      display: inline-block;
+      vertical-align: middle;
+      margin: auto;
+      border-radius: 20px;
+      box-shadow: 7px 7px 10px rgb(199, 194, 194);
+    }
+    .summary-text {
+      color: rgb(8, 8, 44);
+      font-size: 17px;
+      font-weight: bold;
+      text-align: left;
+      margin-top: 30px;
+      margin-bottom: 25px;
+      margin-left: 22px;
+    }
+    .reaction,
+    .memory,
+    .verbal,
+    .visual {
+      height: 40px;
+      width: 250px;
+      border-radius: 5px;
+      margin: auto;
+      margin-bottom: 15px;
+      padding-bottom: 7px;
+    }
+
+    .reaction-text,
+    .memory-text,
+    .verbal-text,
+    .visual-text {
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .reaction {
+      background-color: rgb(228, 205, 211);
+    }
+    .reaction-text {
+      color: rgb(245, 12, 51);
+    }
+
+    .memory {
+      background-color: white;
+    }
+    .memory-text {
+      color: rgb(248, 164, 8);
+    }
+
+    .verbal {
+      background-color: rgb(210, 233, 210);
+    }
+    .verbal-text {
+      color: limegreen;
+    }
+
+    .visual {
+      background-color: rgb(207, 229, 236);
+    }
+    .visual-text {
+      color: rgb(12, 12, 209);
+    }
+    .continue {
+      background-color: rgb(8, 8, 44);
+      color: white;
+      height: 45px;
+      width: 250px;
+      border-radius: 25px;
+      border: none;
+      margin-top: 15px;
+    }
+    .score {
+      display: inline-block;
+      color: rgb(8, 8, 44);
+      margin-left: 100px;
+      font-weight: bold;
+    }
+    .over-total {
+      display: inline-block;
+      color: rgb(181, 174, 226);
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class = "left-side">
+    <p class = "result-text">Your Result</p>
+    <button class = "round-button">
+      <p class = "score-button">
+        76
+      </p>
+      <p class = "of-total">
+        of 100
+      </p>
+    </button>
+    <p class = "complement-text">Great</p>
+    <p class = "comment">
+      You scored higher than 65% of the people who have taken these tests.
+    </p>
+  </div>
+  <div class = "right-side">
+    <p class = "summary-text">Summary</p>
+    <div class = "reaction">
+      <p class = "reaction-text">Reaction</p>
+      <p class = "score">80</p>
+      <p class = "over-total">/100</p>
+    </div>
+    <div class = "memory">
+      <p class = "memory-text">Memory</p>
+      <p class = "score">92</p>
+      <p class = "over-total">/100</p>
+    </div>
+    <div class = "verbal">
+      <p class = "verbal-text">Verbal</p>
+      <p class = "score">61</p>
+      <p class = "over-total">/100</p>
+    </div>
+    <div class = "visual">
+      <p class = "visual-text">Visual</p>
+      <p class = "score">72</p>
+      <p class = "over-total">/100</p>
+    </div>
+    <button class = "continue">Continue</button>
+  </div>
+  
+</body>
+</html>
